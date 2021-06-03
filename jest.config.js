@@ -1,6 +1,6 @@
 module.exports = {
   preset: 'ts-jest',
-  globals: {},
+  setupFiles: ['./jest.init.js'],
   testEnvironment: 'jsdom',
   transform: {
     '^.+\\.vue$': 'vue-jest',
