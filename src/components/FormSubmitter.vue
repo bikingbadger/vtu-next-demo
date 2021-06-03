@@ -1,5 +1,5 @@
 <template>
-  <form @submit.prevent="handleSubmitAsync">
+  <form @submit.prevent="handleSubmit">
     <input v-model="username" data-username />
     <input type="submit" />
   </form>
