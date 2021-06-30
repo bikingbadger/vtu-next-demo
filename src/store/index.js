@@ -9,6 +9,9 @@ const store = createStore({
       count: 0,
       postIds: [],
       posts: {},
+      username: 'alice',
+            firstName: 'Alice',
+            lastName: 'Wonder'
     };
   },
   actions: rootActions,
